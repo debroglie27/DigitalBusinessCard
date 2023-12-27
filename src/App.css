@@ -1,0 +1,150 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    min-height: 100vh;
+}
+
+#root {
+    background-color: #23252C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+.card-container {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #1A1B21;
+    width: 317px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 33px;
+}
+
+.info--image {
+    margin-bottom: 21px;
+}
+
+.info--name {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.info--role {
+    color: #F3BF99;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 9px;
+}
+
+.info--website {
+    color: #F5F5F5;
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.info--button-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 17px;
+}
+
+.info--button {
+    border-radius: 6px;
+    width: 115px;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px;
+}
+
+.info--button:hover {
+    cursor: pointer;
+}
+
+.info--button-mail {
+    border: 1px solid #D1D5DB;
+    background-color: #FFF;
+}
+
+.info--button-mail-text {
+    color: #374151;
+}
+
+.info--button-linkedin {
+    border: 1px solid #5093E2;
+    background-color: #5093E2;
+}
+
+.info--button-linkedin-text {
+    color: #FFF;
+}
+
+.info--button-mail-text, .info--button-linkedin-text {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.about-section, .interests-section {
+    padding: 0px 35px;
+}
+
+.about-section {
+    padding-bottom: 27px;
+}
+
+.interests-section {
+    padding-bottom: 24px;
+}
+
+.about--header, .interests--header {
+    color: #F5F5F5;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.about--content, .interests-content {
+    color: #DCDCDC;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.footer-section {
+    width: 100%;
+    height: 64px;
+    background-color: #161619;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-section > img {
+    margin: 0px 12px;
+}
+
+.footer-section > img:hover {
+    cursor: pointer;
+}
